@@ -1,0 +1,105 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  background-color: rgb(58, 60, 60);
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  padding: 0 ;
+}
+
+
+.titulo {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.titulo span {
+  font-size: 2rem;
+}
+
+.NavegacionBackG {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #2a2e37;
+}
+
+.ResdesSociales {
+  display: flex;
+  gap: 5rem;
+}
+
+.ResdesSociales a {
+  color: inherit;
+  transition: transform 0.2s;
+  text-decoration: none;
+}
+
+.ResdesSociales a:hover {
+  transform: scale(1.2);
+}
+
+.ImagenCentral {
+  width: auto;
+  height: auto;
+  background-image: url("https://www.rappler.com/tachyon/2021/12/us-prediction-software-tool.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  
+}
+
+.UbiItla {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.AcercadeMi h3 {
+  text-align: center;
+  font-size: 3rem;
+}
+.sombra {
+  height: auto;           /* Altura de la ventana completa */
+  width: auto;
+  box-shadow: 15px 12px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 15px 12px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 15px 12px 16px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgb(72, 74, 79);
+  padding: 2rem ;
+  text-align: center;
+  direction:inherit;
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+.tecnologiasConocidas, .proyectos{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.tecnologiasConocidas h3{
+  border-radius: 90%;
+  background-color: azure;
+}
+
+.AcercadeMi{
+  box-shadow: 15px 12px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 15px 12px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 15px 12px 16px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgb(72, 74, 79);
+  padding:0 2rem 0 2rem ;
+  border-radius: 0.7rem;
+}
+footer{
+  background-color: rgb(48, 44, 44);
+}
